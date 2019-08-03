@@ -1,4 +1,6 @@
 ## SudokuSecure
+[![CodeFactor](https://www.codefactor.io/repository/github/leonthemisfit/sudokusecure/badge)](https://www.codefactor.io/repository/github/leonthemisfit/sudokusecure)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6dc735043d246e0b362106777fbe30c)](https://www.codacy.com/app/leonthemisfit/SudokuSecure?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=leonthemisfit/SudokuSecure&amp;utm_campaign=Badge_Grade)
 
 This project is an add-on to my SudokuBoard project. That project has uses the YAML and Marshal libraries in order to load serialized boards. As mentioned on the README for that project, this is insecure and can be dangerous. Those serialization features were not intended for board distribution. This library attempts to bring a little more security to distributing full boards. This is done by creating a signature using an RSA key that can then be verified with the provided public key.
 
